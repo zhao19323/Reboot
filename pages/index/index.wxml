@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+   <image bindtap="btnclick" src="https://2024.macd.work/zoey/wp-content/uploads/sites/28/2024/08/1.png"></image>
+</view>
+

@@ -1,0 +1,23 @@
+<!--pages/describe/describe.wxml-->
+<view class="container">
+   <image src="../../assets/image/2.png"></image> 
+   <image class="medicine" src="../../assets/image/10.png" style="position: absolute; left: 239rpx; top: 239rpx; width: 310rpx; height: 666rpx; display: block; box-sizing: border-box" bindtap="btnclick"></image>
+   <scroll-view class="top">
+    <view class="scrolltxt">
+      <view class="marquee_box">
+        <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+          <text style="margin-right:{{marquee_margin}}px;">{{text}}</text>        
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <scroll-view class="scro-bottom">
+    <view class="scrolltxt">
+      <view class="marquee_box">
+        <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+          <text style="margin-right:{{marquee_margin}}px;">{{text}}</text>        
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

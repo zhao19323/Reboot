@@ -1,0 +1,17 @@
+<!--components/swiper/swiper.wxml-->
+<!-- <view>这是一个自定义组件 {{v}}</view>
+<button bind:tap="tap">点击</button> -->
+
+
+
+ <!-- <swiper class='swiperWrap' indicator-dots="{{false}}" indicator-color="#ccc" indicator-active-color="#f9f400"
+  circular="{{true}}"
+  previous-margin="20px" next-margin="20px"
+  bindchange="change"> -->
+  <swiper class='swiperWrap' indicator-dots="{{false}}" indicator-color="#ccc" indicator-active-color="#f9f400"
+  circular="{{true}}"
+  bindchange="change">
+  <swiper-item class="swiperItem" wx:for="{{imgs}}" wx:key="index">
+    <image class='img {{ current===index?"active":"" }}' src="{{item}}"></image>
+  </swiper-item>
+</swiper>

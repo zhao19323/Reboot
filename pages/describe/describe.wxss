@@ -1,0 +1,10 @@
+/* pages/describe/describe.wxss */
+/**index.wxss**/
+ .container {height: 100%;}
+.scrolltxt{padding:0 20rpx;}
+.marquee_box {position:relative;height:30rpx;display:block;overflow:hidden;} 
+.marquee_text {white-space: nowrap;position:absolute;top:0;font-size:14px;height:30rpx;font-family: 'Apple Chancery'; line-height:30rpx; color: #0692f9;}
+.scro-bottom{position: absolute; bottom: 10%;}
+image {position: absolute; height: 100%;left: 0;top: 0;display:block;width: 100%;z-index: -999;font-family: Helvetica, sans-serif;} 
+
+  

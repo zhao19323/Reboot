@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+   <image bindtap="btnclick" src="../../assets/image/12.png"></image>
+   <!-- <image class="medicine" src="../../assets/image/10.png" style="position: absolute; left: 195rpx; top: 320rpx; width: 360rpx; height: 755rpx; display: block; box-sizing: border-box"></image> -->
+</view>
+

@@ -1,0 +1,32 @@
+	<view id='hook1' class="section section01 {{scrollindex==0?'active':''}}" style='background:#000' bindtouchstart="scrollTouchStart" bindtouchmove='scrollTouchMove' bindtouchend="scrollTouchEnd">
+      <view class='cont'>
+        <view class='cont-body'>
+          <view style="position: absolute; font-size: 320rpx; left: -48rpx; top: -730rpx; width: 650rpx; height: 352rpx; display: block; box-sizing: border-box">累积</view>
+          <view style="position: absolute; font-size: 100rpx; left: -44rpx; top: -356rpx; width: 650rpx; height: 156rpx; display: block; box-sizing: border-box">ACCUMULATE</view>
+          <view style="position: absolute; font-size: 320rpx; left: -48rpx; top: -284rpx; width: 650rpx; height: 352rpx; display: block; box-sizing: border-box">积分</view>
+          <view style="position: absolute; font-size: 120rpx; left: -44rpx; top: 62rpx; width: 402rpx; height: 156rpx; display: block; box-sizing: border-box">POINTS</view>
+          <view style="position: absolute; font-size: 320rpx; left: -58rpx; top: 120rpx; width: 650rpx; height: 392rpx; display: block; box-sizing: border-box">开始</view>
+          <view style="position: absolute; font-size: 120rpx; left: -26rpx; top: 483rpx; width: 381rpx; height: 156rpx; display: block; box-sizing: border-box">START</view>
+          <view style="position: absolute; font-size: 320rpx; left: -26rpx; top: 548rpx; width: 400rpx; height: 392rpx; display: block; box-sizing: border-box">计数：</view>
+          <view bindtap="btnclick" style="position: absolute; font-size: 120rpx; left: -26rpx; top: 941rpx; width: 650rpx; height: 156rpx; display: block; box-sizing: border-box">COUNTING</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第二页 -->
+    <view id='hook2' class="section section02 {{scrollindex==1?'active':''}}" style="background: #000; width: 750rpx; height: 1098rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" bindtouchstart="scrollTouchStart" bindtouchmove='scrollTouchMove' bindtouchend="scrollTouchEnd">
+      <view class='cont' style="position: relative; left: 18rpx; top: 426rpx; width: 622rpx; height: 536rpx; display: block; box-sizing: border-box">
+        <view class='cont-body'>
+          <view style="font-family: 'Helvetica'; color: #0692f9; position: absolute; font-size: 50rpx; left: 22rpx; top: -100rpx; width: 388rpx; height: 444rpx; display: block; box-sizing: border-box">When you think do not need this program, click Exit, otherwise it will always accompany you.</view>
+          <view style="position: absolute; font-size: 320rpx; left: 58rpx; top: -150rpx; width: 228rpx; height: 444rpx; display: block; box-sizing: border-box">{{num}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第三页 -->
+    <!-- <view id='hook3' class="section section03 {{scrollindex==2?'active':''}}" style='background:#000' bindtouchstart="scrollTouchStart" bindtouchmove='scrollTouchMove' bindtouchend="scrollTouchEnd">
+      <view class='cont'>
+        <view class='cont-body'>
+          <view style="font-famliy:'Aa星河依旧滚烫 (非商业使用)';color:#f9f400;">当您认为不需要此程序时，请点击退出，否则它将一直陪伴您。</view>
+          <view style="color:#f9f400;font-size:25rpx;">When you think do not need this program, click Exit, otherwise it will always accompany you.</view>
+        </view>
+      </view>
+    </view> -->
